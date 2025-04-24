@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
-import {addToCart} from '../../Redux/Cartslice';
+import {addToCart} from '../../Redux/CartSlice';
 import { useDispatch }  from 'react-redux';
 
 const Card = ({ product }) => {
