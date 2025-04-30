@@ -7,7 +7,7 @@ const initialState = {
  
 }
 
-const cartSlice = createSlice(
+const CartSlice = createSlice(
     {
         name:'cart',
         initialState,
@@ -67,5 +67,5 @@ const cartSlice = createSlice(
 })
 
 
-export const {addToCart,removeFromCart,increaseQuantity,decreaseQuantity} = cartSlice.actions
-export default cartSlice.reducer;
+export const {addToCart,removeFromCart,increaseQuantity,decreaseQuantity} = CartSlice.actions
+export default CartSlice.reducer;
